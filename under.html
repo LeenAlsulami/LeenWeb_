@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Lib/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Css/under.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@606&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@692&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script
+      src="https://kit.fontawesome.com/64c2e522b8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>LeenWeb</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky fixed-top r-nav">
+      <div class="container">
+        <a href="#" class="navbar-brand">LeenWeb</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggler="collaps"
+          data-target="#navbarId"
+        >
+          <span> <i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarId">
+          <ul class="navbar-nav ms-md-auto sidenav">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./under.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="./under.html" class="nav-link">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="./Contactme.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="showcase">
+      <div class="container-h showcase-inner">
+        <h1>This Page <span class="under"> </span></h1>
+        <p></p>
+        <a href="./index.html" class="btn"> Go back :(</a>
+      </div>
+    </header>
+
+    <section style="height: 1300px"></section>
+    <script src="./Lib/jquery-3.6.0.min.js"></script>
+    <script src="./Lib/js/bootstrap.min.js"></script>
+    <script src="./Js/app.js"></script>
+    <script src="./Lib/typed.js"></script>
+    <script src="./Lib/jquery.waypoints.min.js"></script>
+  </body>
+
+  <script>
+    typed = new Typed(".under", {
+      strings: ["..", "Is Under Construction ..."],
+      smartBackspace: true,
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true,
+      loopCount: Infinity,
+      backDelay: 1000,
+      startDelay: 1000,
+    });
+  </script>
+</html>
